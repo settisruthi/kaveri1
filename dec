@@ -4,22 +4,22 @@ pipeline
   stages
   {
       stage('check validate'){
-      step{
+      steps{
                 echo ' i am validating'
         }
       }
       stage('compile'){
-      step{
+      steps{
                 echo ' i am compiling'
         }
       }
       stage('installation'){
-      step{
+      steps{
                 echo ' i am installing'
         }
       }
       stage('deploy'){
-      step{
+      steps{
                 echo ' i am deploying'
         }
       }
